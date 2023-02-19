@@ -42,7 +42,7 @@ void Application::LateUpdate()
 {
 	m_window.LateUpdate();
 	m_timer.Stop();
-	m_timer.DurationInMs();
+	m_timer.DurationInSeconds();
 }
 
 void Application::Clean()

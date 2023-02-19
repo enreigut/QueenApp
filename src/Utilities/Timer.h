@@ -18,12 +18,12 @@ public:
 	// Derived
 	void Start();
 	void Stop();
-	void DurationInMs();
+	void DurationInSeconds();
 
 public:
 	std::chrono::steady_clock::time_point p_start;
 	std::chrono::steady_clock::time_point p_end;
-	float p_durationInMs = 1.0f;
+	float p_durationInSeconds = 1.0f;
 
 private:
 	std::chrono::high_resolution_clock m_clock;

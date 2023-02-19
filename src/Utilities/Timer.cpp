@@ -38,7 +38,7 @@ void Timer::Stop()
 	p_end = m_clock.now();
 }
 
-void Timer::DurationInMs()
+void Timer::DurationInSeconds()
 {
-	p_durationInMs = (float)(p_end - p_start).count() / 1000000000;
+	p_durationInSeconds = (float)(p_end - p_start).count() / 1000000000;
 }

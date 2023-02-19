@@ -9,7 +9,7 @@ public:
 	~Application();
 
 	// Getters
-	float GetFrameDuration() const { return m_timer.p_durationInMs; }
+	float GetFrameDuration() const { return m_timer.p_durationInSeconds; }
 
 	// Setters
 	void CreateApplication(const char* name = "Test Application", int width = 1280, int height = 720);

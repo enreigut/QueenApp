@@ -7,7 +7,7 @@ void BenchmarkWindow(Application& app)
 
 	ImGui::Begin("Benchmarking");
 
-	ImGui::Text("%f ms", ms);
+	ImGui::Text("%f seconds", ms);
 	ImGui::Text("%f FPS", 1 / ms);
 
 	ImGui::End();
